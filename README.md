@@ -1,5 +1,5 @@
 # coursera_final-project-CSS3_-_Ivo_Stechow
-eer-graded Assignment: Final Project: Create your site!
+Peer-graded Assignment: Final Project: Create your site!
 
 In this assignment you will create an original site and then demonstrate the skills you have learned in this course to style the site.  Some of the skills include showing the ability to:
 
