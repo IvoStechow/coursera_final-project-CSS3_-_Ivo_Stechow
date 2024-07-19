@@ -1,0 +1,184 @@
+
+/* Style definitions for the body */
+body {
+  font-family: Arial, sans-serif, Times, sans-serif;
+  background-color: #eeeecb; 
+}
+
+/* Style definitions for the header */
+header {
+  font-size: 22px; 
+  margin: 1px;
+  margin-top: 5px;
+}
+
+/* Style definitions for the "div-box" in the header */
+header div{
+  background-image: url("../images/different-seeds-piled-up.jpeg");
+  background-size: contain; 
+  height: 200px;
+  width: 100%; 
+}
+
+/* Style definitions for the link "Skip to Main Content" */
+.skip-link {
+  position: absolute;
+  top: -40px; /* Move link out of the visible area */
+  left: 0;
+  background-color: #000; 
+  color: #fff; /* Text-color */
+  padding: 8px;
+  z-index: 100; /* Ensure that the link is in front of other elements */
+  transition: top 0.3s; /* transition effect */
+  text-decoration: none; /* Remove underline  */
+}
+
+/* Style definitions for the link "Skip to Main Content" when it is in focus (move link to the visible area) */
+.skip-link:focus {
+  top: 0; /* Move link to the visible area when it is in focus */
+}
+
+/* Style definitions for the navigation area within the header */
+nav {
+  color: #0b0b0b;
+  display: inline-block; 
+  width: 80%; 
+  padding-left: 50px;
+}
+
+/* Style definitions for the links within the navigation */
+nav a {
+  color: #0b0b0b; 
+  padding: 1px 1px; 
+  text-decoration: underline; 
+  transition: color 0.5s;
+}
+
+/* Style definitions for the links within the navigation on hover */
+nav a:hover {
+  color: #2d7304; 
+  padding: 1px 1px; 
+  transform: scale(1.2);
+}
+
+/* Style definitions for the unordered list (structure of navigation menu) */
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  list-style-type: none;
+  align-items: center;
+}
+
+/* Style definitions for the list items of the ul */
+li {
+  display: flex; /* Display type of the list items, ...these here are flexible */
+  flex-wrap: wrap; /* when the screen is reduced and there is not enough space far all elements, 
+                     some elements move to the next line and are not squeezed together */
+  justify-content: space-evenly; /* the space between the elements will/is left evenly */
+}
+
+/* Style definitions for links on the current page */
+.current {
+  font-weight: 900;
+}
+
+/* Style definitions for the h1 heading */
+h1 {
+  text-align: center; 
+  font-family:Arial, sans-serif, Times, sans-serif;
+  color: #0b0b0b; 
+  font-size: 32px; 
+  padding-top: 40px; 
+  padding-bottom: 5px; 
+}
+
+/* Style definitions for the h2 headings */
+h2 {
+  text-align: center; 
+  font-family:Arial, sans-serif, Times, sans-serif;
+  color: #023122; 
+  font-size: 22px; 
+}
+
+/* Style definitions for the paragraphs */
+p {
+  line-height: 1.6; 
+}
+
+/* Style definitions for the main area */
+main {
+  min-height: 100px;
+  background-color: #d8d81f; 
+  font-size: 19px; 
+  padding: 5px 20px;  
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+/* Style definitions for the links within the main area */
+main a {
+  color: #1e0ce2; 
+  padding: 1px 1px; 
+  text-decoration: underline; 
+}
+
+/* Style definitions for the grid-container */
+.grid-container {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  justify-content: space-evenly;
+  align-items: center;
+  row-gap: 80px;
+  column-gap: 5px;
+  background-color: #d8d81f;
+  padding: 5px;
+}
+
+/* Style definitions for the images within the grid-container */
+.grid-container img {  
+  opacity: 0.6; 
+  width: 85%; 
+  padding: 0px;
+  border: 3px solid #2d7304;
+  border-radius: 10px; 
+}
+/* Style definitions for the images within the grid-container on hover */
+.grid-container img:hover {
+  opacity: 1; 
+  transform: scale(1.1);
+}
+
+/* Style definitions for the flex-container */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #d8d81f;
+  padding: 10px;
+}
+
+/* Style definitions for the images within the flex-container */
+.flex-container img { 
+  margin: 10px;
+  padding: 0px;
+  border: 3px solid #2d7304;
+  border-radius: 10px; 
+}
+
+/* Style definitions for every second (even figure) image within the flex-container */
+.flex-container img:nth-child(even) {
+  margin: 10px;
+  padding: 0px;
+  border: 3px solid #2d7304;
+  border-radius: 70px; 
+}
+
+/* Style definitions for the footer*/
+footer {
+  background-color: #034205; 
+  font-size: 16px; 
+  color: white; 
+  padding: 5px 20px; 
+}
