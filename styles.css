@@ -14,7 +14,7 @@ header {
 
 /* Style definitions for the "div-box" in the header */
 header div{
-  background-image: url("different-seeds-piled-up.jpeg");
+  background-image: url("../images/different-seeds-piled-up.jpeg");
   background-size: contain; 
   height: 200px;
   width: 100%; 
